@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XMGDwonLoadListern_Example' do
+  pod 'XMGDwonLoadListern', :path => '../'
+
+  target 'XMGDwonLoadListern_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
