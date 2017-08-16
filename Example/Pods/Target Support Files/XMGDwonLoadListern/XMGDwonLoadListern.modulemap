@@ -1,0 +1,6 @@
+framework module XMGDwonLoadListern {
+  umbrella header "XMGDwonLoadListern-umbrella.h"
+
+  export *
+  module * { export * }
+}

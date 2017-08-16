@@ -1,0 +1,6 @@
+framework module XMGSegmentBar {
+  umbrella header "XMGSegmentBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

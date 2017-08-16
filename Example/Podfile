@@ -1,3 +1,5 @@
+source 'git@git.coding.net:FKLam/XMGFMSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'XMGDwonLoadListern_Example' do
@@ -6,6 +8,6 @@ target 'XMGDwonLoadListern_Example' do
   target 'XMGDwonLoadListern_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end

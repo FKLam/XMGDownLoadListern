@@ -1,0 +1,60 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - MJExtension (3.0.13)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - XMGDownLoad (0.1.0)
+  - XMGDwonLoadListern (0.1.0):
+    - MJExtension
+    - SDWebImage
+    - XMGDownLoad
+    - XMGFMBase
+    - XMGRemotePlayer
+    - XMGSegmentBar
+    - XMGSqlite
+  - XMGFMBase (0.1.0):
+    - XMGFMBase/Category (= 0.1.0)
+    - XMGFMBase/NetWork (= 0.1.0)
+  - XMGFMBase/Category (0.1.0)
+  - XMGFMBase/NetWork (0.1.0):
+    - AFNetworking
+  - XMGRemotePlayer (0.1.1)
+  - XMGSegmentBar (0.1.0)
+  - XMGSqlite (0.1.0)
+
+DEPENDENCIES:
+  - XMGDwonLoadListern (from `../`)
+
+EXTERNAL SOURCES:
+  XMGDwonLoadListern:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  XMGDownLoad: ad669acb7d5073fd9c03a69f38e0ad9d79ba9586
+  XMGDwonLoadListern: 0e949bcb72babd6d8842bf3c5aee007db366e393
+  XMGFMBase: 0a89c76d4368931981c01060f400465ca02726a3
+  XMGRemotePlayer: 3c5383e14fd261dd8e5590cb64591230e5bff807
+  XMGSegmentBar: 8d171277b3cab07f4e547691e96d3402d0e9b1c6
+  XMGSqlite: 34910bb13662e4e4424274d3cc3d53808ca2bb0d
+
+PODFILE CHECKSUM: beba2211ff8f7364f3bf587e91dd7ee59e1aa0da
+
+COCOAPODS: 1.2.1

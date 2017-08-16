@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XMGDwonLoadListern'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XMGDwonLoadListern.'
+  s.summary          = 'XMGDwonLoadListern.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,33 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+主框架，XMGDwonLoadListern.
                        DESC
 
-  s.homepage         = 'https://github.com/lfk0120@163.com/XMGDwonLoadListern'
+  s.homepage         = 'https://github.com/FKLam/XMGDownLoadListern'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lfk0120@163.com' => 'lfkun@aoyuan.net' }
-  s.source           = { :git => 'https://github.com/lfk0120@163.com/XMGDwonLoadListern.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/FKLam/XMGDownLoadListern.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'XMGDwonLoadListern/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'XMGDwonLoadListern' => ['XMGDwonLoadListern/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'XMGDwonLoadListern' => ['XMGDwonLoadListern/Assets/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+    s.dependency 'XMGFMBase'
+    s.dependency 'XMGDownLoad'
+    s.dependency 'XMGRemotePlayer'
+    s.dependency 'XMGSegmentBar'
+    s.dependency 'XMGSqlite'
+    s.dependency 'SDWebImage'
+    s.dependency 'MJExtension'
 end
